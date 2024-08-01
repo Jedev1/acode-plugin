@@ -1,6 +1,6 @@
 {
-  "id": "acode.plugin",
-  "name": "Plugin",
+  "id": "acode.plugin.gdscript",
+  "name": "Acode GDscript",
   "main": "dist/main.js",
   "version": "1.0.0",
   "readme": "readme.md",
@@ -9,8 +9,8 @@
   "minVersionCode" : 290,
   "price": 0,
   "author": {
-    "name": "",
-    "email": "",
-    "github": ""
+    "name": "Jedev1",
+    "email": "almeidadesousajoaoenrique@gmail.com",
+    "github": "https://github.com/Jedev1"
   }
 }
