@@ -1,5 +1,5 @@
 {
-  "name": "acode-plugin",
+  "name": "acode-plugin.gdscript",
   "version": "1.0.2",
   "description": "Template for Acode plugin",
   "main": "dist/main.js",
