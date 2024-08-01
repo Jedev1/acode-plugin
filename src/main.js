@@ -24,4 +24,11 @@ if (window.acode) {
   acode.setPluginUnmount(plugin.id, () => {
     acodePlugin.destroy();
   });
+
+  acode.registerFormatter('com.example.plugin', ['gd'], () => {
+    // formats the active file if supported
+    const text = editorManager.editor.session.getValue();
+    // format the text
+    editorManager.editor.session.setValue(text);
+  });
 }
